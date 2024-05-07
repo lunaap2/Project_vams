@@ -23,3 +23,16 @@ var swiper = new Swiper(".swiper", {
         clickable: true
     }
 });
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the form from submitting normally
+  
+    // Get the form data
+    var formData = new FormData(event.target);
+    var name = formData.get('name');
+    var email = formData.get('email');
+    var message = formData.get('message');
+  
+    console.log('Email:', email);
+    console.log('Message:', message);
+  });
