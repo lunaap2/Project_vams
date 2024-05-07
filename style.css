@@ -1,0 +1,9 @@
+.dv1{
+    background-color: beige;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+}
