@@ -47,7 +47,7 @@ section {
 .swiper-slide span {
     text-transform: uppercase;
     color: #fff;
-    background: #1b7402;
+    background: pink;
     padding: 7px 18px 7px 25px;
     display: inline-block;
     border-radius: 0 20px 20px 0px;
@@ -57,19 +57,19 @@ section {
 }
 
 .swiper-slide--one span {
-    background: #62667f;
+    background: pink;
 }
 
 .swiper-slide--two span {
-    background: #087ac4;
+    background: pink;
 }
 
 .swiper-slide--three span {
-    background: #b45205;
+    background: pink;
 }
 
 .swiper-slide--four span {
-    background: #087ac4;
+    background: pink;
 }
 
 .swiper-slide h2 {
